@@ -9,3 +9,5 @@ Quando a função é chamada com os valores 10 e "Olá, mundo!",
 esses valores são vinculados aos parâmetros dentro da função, 
 resultando na impressão do número e da string fornecidos. 
 Isso exemplifica o conceito de binding em Python.'''
+
+
