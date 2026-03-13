@@ -1,0 +1,5 @@
+teste de criação de informações em dados 
+ele vai adicionando em um aquivo
+estaja ele criado ou não 
+caso não 
+o sistema ira crialo 
