@@ -30,3 +30,9 @@ def main():# Aqui inicia a função principal
 
 if __name__=="__main__":# Esta condição verifica se o script está sendo executado diretamente
     main()# Aqui faz a chamada da função para o programa começar a rodar
+
+    '''lembrando que eu posso usar alguns comandos para ller a slinhas do arquivo cmo "read, readline, readlines"
+    sendo que cada um vai tomar e leuma parte difernte.
+    a unica exeção sento o "readline", que le a primeira linhae fica parado ali e caso eu chame esta função novente
+     ele kera a sengunda linha.
+      já o read lera e me aprensantara tudo como se fosse uma striing só.'''
