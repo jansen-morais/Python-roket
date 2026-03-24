@@ -1,4 +1,5 @@
 import os
+import shutil
 
 def porcecessar_arquivo(arquivo_origem, arquivo_destino):
     try:#comoando para tentar execultar as intruções 
@@ -18,7 +19,7 @@ def porcecessar_arquivo(arquivo_origem, arquivo_destino):
     try:
         with open(arquivo_destino, 'w+', encoding='utf8') as f_destino:
             f_destino.write("Cabeçalho: conteudo do Arquivo\n")
-            f_destino.write(conteudo)
+            f_destino.write(conteudo) 
     except PermissionError:
         print(f'Sem permição para eccrever em {arquivo_destino}')
     except Exception as e:
@@ -30,6 +31,7 @@ def main():
     arquivo_destino = os.path.join(diretorio_trabalho, "arquivo_destino.txt")
 
     porcecessar_arquivo(arquivo_origem, arquivo_destino)
+ 
 
 if __name__ == "__main__":
     main()
